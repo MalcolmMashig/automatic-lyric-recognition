@@ -1,7 +1,7 @@
 # Automatic Lyric Recognition
 ### Transcribe Lyrics with the LibriSpeech ASR Model
 
-We are guided by the steps outlined in https://seongminpark.com/blog/20201222a/.
+We are guided by the steps outlined in https://seongminpark.com/blog/20201222a/ which follows the WSJ recipe.
 
 Once you have Docker Desktop downloaded and running, enter the following terminal commands:
 
@@ -16,9 +16,13 @@ Once you have Docker Desktop downloaded and running, enter the following termina
 `export audio_dir=$base_dir/audio`
 
 
-##### 2. Prepare the Kaldi Docker container:
+##### 2. Prepare the Audio and Kaldi Docker container:
 
 `source prep-docker.sh`
+
+`source download-librispeech-model.sh`
+
+`source prep-audio.sh`
 
 
 ##### 3. Enter the container:

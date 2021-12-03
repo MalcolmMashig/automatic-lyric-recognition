@@ -5,9 +5,9 @@
 cd egs/wsj/s5
 mkdir -p data
 mv docker-delivery/data/convert_me data/
-mv docker-delivery/0013_librispeech_v1_chain.tar.gz 0013_librispeech_v1_chain.tar.gz
-mv docker-delivery/0013_librispeech_v1_extractor.tar.gz 0013_librispeech_v1_extractor.tar.gz
-mv docker-delivery/0013_librispeech_v1_lm.tar.gz 0013_librispeech_v1_lm.tar.gz
+mv librispeech-tools/0013_librispeech_v1_chain.tar.gz 0013_librispeech_v1_chain.tar.gz
+mv librispeech-tools/0013_librispeech_v1_extractor.tar.gz 0013_librispeech_v1_extractor.tar.gz
+mv librispeech-tools/0013_librispeech_v1_lm.tar.gz 0013_librispeech_v1_lm.tar.gz
 tar -xvzf 0013_librispeech_v1_chain.tar.gz
 tar -xvzf 0013_librispeech_v1_extractor.tar.gz
 tar -xvzf 0013_librispeech_v1_lm.tar.gz
